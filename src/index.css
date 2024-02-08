@@ -43,7 +43,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #3b3b3b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -69,7 +69,7 @@ button:focus-visible {
 }
 
 .main {
-  min-width: 20rem;
+  min-width: 25rem;
   position: relative;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -86,4 +86,19 @@ button:focus-visible {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+  margin-block-start: 2rem;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-block-end: 2rem;
+}
+input {
+  line-height: 1.8rem;
 }
