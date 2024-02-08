@@ -67,3 +67,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.main {
+  min-width: 20rem;
+  position: relative;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+
+.index {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
